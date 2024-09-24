@@ -1,0 +1,6 @@
+@API_Sistema_Tiquetes_HostAddress = http://localhost:5103
+
+GET {{API_Sistema_Tiquetes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
