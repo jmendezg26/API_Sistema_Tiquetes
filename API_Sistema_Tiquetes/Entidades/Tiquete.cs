@@ -14,7 +14,7 @@
         public string Detalle { get; set; }
         public int IdTipoPeticion { get; set; }
         public int IdTipoServicio { get; set; }
-        public int IdEstado { get; set; }
+        public int Estado { get; set; }
         public string DetalleCierre { get; set; }
         public DateTime FechaRegistro { get; set; }
         public DateTime FechaCierre { get; set; }
