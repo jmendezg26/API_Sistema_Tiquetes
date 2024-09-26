@@ -9,10 +9,9 @@
         public string Marca { get; set; }
         public string NumeroParte { get; set; } //Numero Lote
         public string Activo { get; set; }
-        public int IdContrato { get; set; }
-        public int IdSucursal { get; set; }
         public int IdTipoEquipo { get; set; }
         public int IdBodega { get; set; }
         public DateTime FechaRegistro { get; set; }
+        public string Descripcion { get; set; }
     }
 }
