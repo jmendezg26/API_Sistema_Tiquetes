@@ -16,6 +16,6 @@
         public string Nombre { get; set; }
         public DateTime FechaRegistro { get; set; }
         public string Archivo { get; set; } //Ubicación en el FileServer
-
     }
+
 }

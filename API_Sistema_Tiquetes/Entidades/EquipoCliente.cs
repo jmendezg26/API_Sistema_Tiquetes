@@ -2,6 +2,7 @@
 {
     public class EquipoCliente
     {
+        public int Id { get; set; }
         public int IdEquipo { get; set; }
         public string Serie { get; set; }
         public string Activo { get; set; }

@@ -17,7 +17,6 @@ namespace API_Sistema_Tiquetes.AccesoDatos
 
             try
             {
-
                 using SqlConnection conexion = new SqlConnection(_BDConnection.BD_CONEXION);
 
                 conexion.Open();
@@ -26,7 +25,6 @@ namespace API_Sistema_Tiquetes.AccesoDatos
                 cmd.Connection = conexion;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "PA_ObtenerTiquetes";
-
 
                 SqlDataReader reader = cmd.ExecuteReader();
 
@@ -67,6 +65,8 @@ namespace API_Sistema_Tiquetes.AccesoDatos
 
             return ListaTiquetes;
         }
+
+        
         #endregion
 
         #region Metodos Insertar
